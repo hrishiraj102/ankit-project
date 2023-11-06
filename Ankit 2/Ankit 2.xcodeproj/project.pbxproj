@@ -1,0 +1,382 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		21A490B22AF6C6F400E60861 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21A490B12AF6C6F400E60861 /* AppDelegate.swift */; };
+		21A490B42AF6C6F400E60861 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21A490B32AF6C6F400E60861 /* SceneDelegate.swift */; };
+		21A490B62AF6C6F400E60861 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21A490B52AF6C6F400E60861 /* ViewController.swift */; };
+		21A490B92AF6C6F400E60861 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 21A490B72AF6C6F400E60861 /* Main.storyboard */; };
+		21A490BB2AF6C6F600E60861 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 21A490BA2AF6C6F600E60861 /* Assets.xcassets */; };
+		21A490BE2AF6C6F600E60861 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 21A490BC2AF6C6F600E60861 /* LaunchScreen.storyboard */; };
+		21A490C62AF6D5C800E60861 /* MainmenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21A490C52AF6D5C800E60861 /* MainmenuViewController.swift */; };
+		21A490C82AF6D77800E60861 /* subject1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21A490C72AF6D77800E60861 /* subject1ViewController.swift */; };
+		21A490CA2AF6DA4A00E60861 /* forgotViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21A490C92AF6DA4A00E60861 /* forgotViewController.swift */; };
+		21A490CC2AF6DBE900E60861 /* cellTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21A490CB2AF6DBE900E60861 /* cellTableViewCell.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		21A490AE2AF6C6F400E60861 /* Ankit 2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Ankit 2.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		21A490B12AF6C6F400E60861 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		21A490B32AF6C6F400E60861 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		21A490B52AF6C6F400E60861 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		21A490B82AF6C6F400E60861 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		21A490BA2AF6C6F600E60861 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		21A490BD2AF6C6F600E60861 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		21A490BF2AF6C6F600E60861 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		21A490C52AF6D5C800E60861 /* MainmenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainmenuViewController.swift; sourceTree = "<group>"; };
+		21A490C72AF6D77800E60861 /* subject1ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = subject1ViewController.swift; sourceTree = "<group>"; };
+		21A490C92AF6DA4A00E60861 /* forgotViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = forgotViewController.swift; sourceTree = "<group>"; };
+		21A490CB2AF6DBE900E60861 /* cellTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cellTableViewCell.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		21A490AB2AF6C6F400E60861 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		21A490A52AF6C6F400E60861 = {
+			isa = PBXGroup;
+			children = (
+				21A490B02AF6C6F400E60861 /* Ankit 2 */,
+				21A490AF2AF6C6F400E60861 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		21A490AF2AF6C6F400E60861 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				21A490AE2AF6C6F400E60861 /* Ankit 2.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		21A490B02AF6C6F400E60861 /* Ankit 2 */ = {
+			isa = PBXGroup;
+			children = (
+				21A490B12AF6C6F400E60861 /* AppDelegate.swift */,
+				21A490B32AF6C6F400E60861 /* SceneDelegate.swift */,
+				21A490B52AF6C6F400E60861 /* ViewController.swift */,
+				21A490C92AF6DA4A00E60861 /* forgotViewController.swift */,
+				21A490C52AF6D5C800E60861 /* MainmenuViewController.swift */,
+				21A490C72AF6D77800E60861 /* subject1ViewController.swift */,
+				21A490B72AF6C6F400E60861 /* Main.storyboard */,
+				21A490CB2AF6DBE900E60861 /* cellTableViewCell.swift */,
+				21A490BA2AF6C6F600E60861 /* Assets.xcassets */,
+				21A490BC2AF6C6F600E60861 /* LaunchScreen.storyboard */,
+				21A490BF2AF6C6F600E60861 /* Info.plist */,
+			);
+			path = "Ankit 2";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		21A490AD2AF6C6F400E60861 /* Ankit 2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 21A490C22AF6C6F600E60861 /* Build configuration list for PBXNativeTarget "Ankit 2" */;
+			buildPhases = (
+				21A490AA2AF6C6F400E60861 /* Sources */,
+				21A490AB2AF6C6F400E60861 /* Frameworks */,
+				21A490AC2AF6C6F400E60861 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Ankit 2";
+			productName = "Ankit 2";
+			productReference = 21A490AE2AF6C6F400E60861 /* Ankit 2.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		21A490A62AF6C6F400E60861 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					21A490AD2AF6C6F400E60861 = {
+						CreatedOnToolsVersion = 15.0.1;
+					};
+				};
+			};
+			buildConfigurationList = 21A490A92AF6C6F400E60861 /* Build configuration list for PBXProject "Ankit 2" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 21A490A52AF6C6F400E60861;
+			productRefGroup = 21A490AF2AF6C6F400E60861 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				21A490AD2AF6C6F400E60861 /* Ankit 2 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		21A490AC2AF6C6F400E60861 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				21A490BE2AF6C6F600E60861 /* LaunchScreen.storyboard in Resources */,
+				21A490BB2AF6C6F600E60861 /* Assets.xcassets in Resources */,
+				21A490B92AF6C6F400E60861 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		21A490AA2AF6C6F400E60861 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				21A490C62AF6D5C800E60861 /* MainmenuViewController.swift in Sources */,
+				21A490CA2AF6DA4A00E60861 /* forgotViewController.swift in Sources */,
+				21A490B62AF6C6F400E60861 /* ViewController.swift in Sources */,
+				21A490B22AF6C6F400E60861 /* AppDelegate.swift in Sources */,
+				21A490CC2AF6DBE900E60861 /* cellTableViewCell.swift in Sources */,
+				21A490B42AF6C6F400E60861 /* SceneDelegate.swift in Sources */,
+				21A490C82AF6D77800E60861 /* subject1ViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		21A490B72AF6C6F400E60861 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				21A490B82AF6C6F400E60861 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		21A490BC2AF6C6F600E60861 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				21A490BD2AF6C6F600E60861 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		21A490C02AF6C6F600E60861 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		21A490C12AF6C6F600E60861 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		21A490C32AF6C6F600E60861 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Ankit 2/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "kk.Ankit-2";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		21A490C42AF6C6F600E60861 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Ankit 2/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "kk.Ankit-2";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		21A490A92AF6C6F400E60861 /* Build configuration list for PBXProject "Ankit 2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				21A490C02AF6C6F600E60861 /* Debug */,
+				21A490C12AF6C6F600E60861 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		21A490C22AF6C6F600E60861 /* Build configuration list for PBXNativeTarget "Ankit 2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				21A490C32AF6C6F600E60861 /* Debug */,
+				21A490C42AF6C6F600E60861 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 21A490A62AF6C6F400E60861 /* Project object */;
+}
